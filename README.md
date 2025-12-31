@@ -43,3 +43,7 @@ Version Control: GitLab
 ```certif/```: Contains SSL/TLS certificates and keys for secure communication.
 
 ```tests/```: Automated test suite for command validation and system robustness.
+
+## Authors 
+BERNADET Laurent
+WAKLATSI Elly
