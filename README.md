@@ -30,6 +30,8 @@ Version Control: GitLab
 ## Project Structure
 ```protocol_dico.md```: Detailed technical specifications of the communication protocol.
 
+```protocol_dico.py```: Core library containing shared logic and command implementations (get, set, del, pref). This module ensures consistency across clients and servers by providing unified data processing functions.
+
 ```dico_server_maitre.py```: Centralized Master server managing the authoritative dictionary.
 
 ```dico_server.py```: Local server-side logic managing data caching and master communication.
